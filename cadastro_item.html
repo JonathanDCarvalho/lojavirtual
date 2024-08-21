@@ -15,7 +15,7 @@
     <!-- Link CSS -->
     <link rel="stylesheet" href="style/style.css">
 
-    <title>Quem Somos</title>
+    <title>E-Commerce | Cadastro de Item</title>
 </head>
 
 <body>
@@ -81,14 +81,33 @@
 
         <main class="flex-fill">
             <div class="container">
-                <div class="text-center">
-                    <img src="img/slides/exercicio-costas.webp" alt="Academia">
+                <div class="row justify-content-center">
+                    <form class="col-sm-10 col-md-8 col-lg-6" method="post">
+                        <h1>Cadastre um novo Item</h1>
+
+                        <div class="form-floating mb-3">
+                            <input type="text" id="txtNome" class="form-control" placeholder=" " autofocus>
+                            <label for="txtNome">Nome</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="text" id="txtDescricao" class="form-control" placeholder=" " autofocus>
+                            <label for="txtDescricao">Descrição</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="file" id="txtDescricao" class="form-control" placeholder=" " autofocus>
+                            <label for="txtDescricao">Imagem</label>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input" value="" id="chkLembrar">
+                            <label for="chkLembrar" class="form-check-label">Lembrar de mim</label>
+                        </div>
+                        <a href="cadastro_item_finalizado.html" class="btn btn-lg btn-danger">Cadastrar</a>
+
+                    </form>
                 </div>
-                <h1>Quem Somos</h1>
-                <hr>
-                <p>Esse projeto é uma loja virtual (e-commerce) fictício criada com o objetivo de treinar todo o conhecimento passado em aula no <span class="nomesImportantes">Módulo #1 - Front End Estático (HTML e CSS)</span> ministrado pelo professor <span class="nomesImportantes">Luís Fernando Teixeira Bicalho</span>. Curso oferecido pela <span class="nomesImportantes">Ada Tech</span> em parceria com o <span class="nomesImportantes">Santander<span></p>
-                <p>O código-fonte pode ser obtido via GitHub. Este estudo de caso pode ser utilizado livremente como base para outras lojas virtuais.</p>
-                <p>Tecnologias utilizadas: HTML, CSS, Bootstrap</p>
             </div>
         </main>
 
